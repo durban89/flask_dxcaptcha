@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Author: durban
 # @Date:   2019-12-25 18:00:43
-# @Last Modified by:   durban
-# @Last Modified time: 2019-12-25 18:36:20
+# @Last Modified by:   durban.zhang
+# @Last Modified time: 2019-12-25 19:03:55
 
 from setuptools import find_packages, setup
 
@@ -10,7 +10,7 @@ from setuptools import find_packages, setup
 setup(
     name='Flask-DXCaptcha',
     version='1.0.0',
-    url='http://example.com/flask-sqlite3/',
+    url='https://github.com/durban89/flask_dxcaptcha',
     license='BSD',
     author='durban zhang',
     author_email='durban.zhang@gmail.com',
