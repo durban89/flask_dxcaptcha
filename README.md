@@ -1,4 +1,4 @@
-##Flask-DXCaptcha
+## Flask-DXCaptcha
 
 Flask-DXCaptcha是依赖顶象科技提供的无感验证功能开发的Flask 扩展
 
@@ -50,11 +50,11 @@ response = dxcaptcha.client.checkToken(v_token)
 
 if response['serverStatus'] == 'SERVER_SUCCESS':
     if response['result'] is False:
-	    pass
+        pass
         # token验证失败，业务系统可以直接阻断该次请求或者继续弹验证码
         # 具体的实现逻辑
 else:
-	pass
+    pass
     # '提交验证失败，请重新提交'
     # 具体的实现逻辑
 ```
