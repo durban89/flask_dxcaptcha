@@ -2,7 +2,7 @@
 # @Author: durban
 # @Date:   2019-12-25 18:00:43
 # @Last Modified by:   durban.zhang
-# @Last Modified time: 2019-12-26 10:41:47
+# @Last Modified time: 2019-12-26 10:51:58
 
 from setuptools import find_packages, setup
 
@@ -11,7 +11,7 @@ with open("README.rst", "r") as fh:
 
 setup(
     name='Flask-DXCaptcha',
-    version='1.0.3',
+    version='1.0.4',
     url='https://github.com/durban89/flask_dxcaptcha',
     license='MIT',
     author='durban zhang',
