@@ -1,4 +1,4 @@
 include MANIFEST.in
-include README
+include README.rst
 include LICENSE
-recursive-exclude *.pyc
+global-exclude *.pyc
