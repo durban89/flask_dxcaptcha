@@ -2,22 +2,24 @@
 # @Author: durban
 # @Date:   2019-12-25 18:00:43
 # @Last Modified by:   durban.zhang
-# @Last Modified time: 2019-12-26 10:51:58
+# @Last Modified time: 2019-12-26 10:58:59
 
+import io
 from setuptools import find_packages, setup
 
-with open("README.rst", "r") as fh:
-    readme = fh.read()
+with io.open("README.rst", "rt", encoding='utf8') as f:
+    readme = f.read()
 
 setup(
     name='Flask-DXCaptcha',
-    version='1.0.4',
+    version='1.0.5',
     url='https://github.com/durban89/flask_dxcaptcha',
     license='MIT',
     author='durban zhang',
     author_email='durban.zhang@gmail.com',
     description='Flask-DXCaptcha是依赖顶象科技提供的无感验证功能开发的Flask 扩展',
     long_description=readme,
+    long_description_content_type='text/x-rst',
     packages=find_packages(),
     zip_safe=False,
     include_package_data=True,
