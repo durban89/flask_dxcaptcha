@@ -6,7 +6,7 @@ Flask-DXCaptcha是依赖顶象科技提供的无感验证功能开发的Flask �
 安装Flask-DXCaptcha
 ----------
 
-使用**pip**安装
+使用 **pip** 安装
 
 .. code-block:: text
   
@@ -16,7 +16,7 @@ Flask-DXCaptcha是依赖顶象科技提供的无感验证功能开发的Flask �
 配置
 ------
 
-``the-config.cfg``文件添加配置项
+``the-config.cfg`` 文件添加配置项
 
 .. code-block:: text
 
@@ -25,9 +25,7 @@ Flask-DXCaptcha是依赖顶象科技提供的无感验证功能开发的Flask �
 
 
 
-APP_ID和APP_SECRECT需要从 `顶象科技官网`_. 获取
-
-.. _顶象科技官网: https://www.dingxiang-inc.com/
+APP_ID和APP_SECRECT需要从 `顶象科技官网`_ 获取
 
 跟其他扩展使用的方式类似，简单介绍如下
 
@@ -73,7 +71,7 @@ APP_ID和APP_SECRECT需要从 `顶象科技官网`_. 获取
       # 具体的实现逻辑
 
 
-```v_token```值的获取可以参考官网文档，下面仅是示例
+``v_token`` 值的获取可以参考 `官网`_ 文档，下面仅是示例
 
 html
 
@@ -102,3 +100,7 @@ javascript
   });
   myCaptcha.show();
   </script>  
+
+
+.. _顶象科技官网: https://www.dingxiang-inc.com/
+.. _官网: https://www.dingxiang-inc.com/
