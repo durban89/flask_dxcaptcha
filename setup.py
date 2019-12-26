@@ -11,7 +11,7 @@ setup(
     name='Flask-DXCaptcha',
     version='1.0.0',
     url='https://github.com/durban89/flask_dxcaptcha',
-    license='BSD',
+    license='MIT',
     author='durban zhang',
     author_email='durban.zhang@gmail.com',
     description='Flask-DXCaptcha是依赖顶象科技提供的无感验证功能开发的Flask 扩展',
