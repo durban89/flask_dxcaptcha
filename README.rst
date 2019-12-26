@@ -14,18 +14,20 @@ Flask-DXCaptcha是依赖顶象科技提供的无感验证功能开发的Flask �
   
 
 配置
----
+------
 
-```the-config.cfg```文件添加配置项
+``the-config.cfg``文件添加配置项
 
 .. code-block:: text
 
-  DX_APP_ID = 'xxx'
-  DX_APP_SECRECT = 'xxx'
+  DX_APP_ID = 'xxx' # APP_ID
+  DX_APP_SECRECT = 'xxx' # APP_SECRECT
 
 
 
-APP_ID和APP_SECRECT需要从[顶象科技官网](https://www.dingxiang-inc.com/)获取
+APP_ID和APP_SECRECT需要从 `顶象科技官网` 获取
+
+.. _顶象科技官网: https://www.dingxiang-inc.com/
 
 跟其他扩展使用的方式类似，简单介绍如下
 
@@ -81,6 +83,8 @@ html
     <div id='c1'></div>
     <input id='v_token' name='v_token' />
   </form>
+
+javascript
 
 .. code-block:: javascript
 
