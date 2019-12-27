@@ -2,7 +2,7 @@
 # @Author: durban
 # @Date:   2019-12-25 18:00:43
 # @Last Modified by:   durban.zhang
-# @Last Modified time: 2019-12-26 11:18:17
+# @Last Modified time: 2019-12-27 10:00:24
 
 import io
 from setuptools import find_packages, setup
@@ -12,7 +12,7 @@ with io.open("README.rst", "rt", encoding='utf8') as f:
 
 setup(
     name='Flask-DXCaptcha',
-    version='1.0.6',
+    version='1.0.7',
     url='https://github.com/durban89/flask_dxcaptcha',
     license='MIT',
     author='durban zhang',
